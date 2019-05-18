@@ -8,14 +8,14 @@ Usage
 Usage:     
       bash appex.sh [install |uninstall |install '{serverSpeeder of Kernel Version}']     
 ```
-Install
+安装
 ```
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/foxbackup/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh install
 
 ```    
-Uninstall    
+卸载    
 ```
-wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh uninstall
+wget --no-check-certificate -O appex.sh https://raw.githubusercontent.com/foxbackup/serverSpeeder_Install/master/appex.sh && chmod +x appex.sh && bash appex.sh uninstall
 
 ```  
 -----------------------------     
@@ -47,10 +47,4 @@ https://raw.githubusercontent.com/0oVicero0/serverSpeeder_kernel/master/$1/$2/$3
 wget --no-check-certificate -qO apx.lic https://moeclub.azurewebsites.net/lic?mac=$(ifconfig |grep -B1 "$(wget -qO- ipv4.icanhazip.com)" |awk '/HWaddr/{ print $5 }')
 
 ```     
------------------------------    
-#仅供学习测试使用,严禁用于商业用途.
------------------------------
-#博客: [萌咖 - MoeClub.org](https://MoeClub.org)   
------------------------------      
------------------------------   
 
